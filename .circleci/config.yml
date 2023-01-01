@@ -1,0 +1,25 @@
+version: 2.1
+
+setup: true
+
+
+orbs:
+  dynamic: bjd2385/dynamic-continuation@3.4.0
+  general: bjd2385/general@0.4.2
+
+
+workflows:
+  base:
+    jobs:
+      - dynamic/continue:
+          context: circleci
+          modules: |
+            /scripts
+
+      - general/github-release:
+          context: github
+          filters:
+            branches:
+              ignore: /.*/
+            tags:
+              only: /^v?[0-9]+\.[0-9]+\.[0-9]+$/

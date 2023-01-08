@@ -2,7 +2,7 @@ repository:
   name: .github
   description: Base .github/settings.yml for repositories to reference
   homepage: https://github.com/premiscale/.github
-  topics: github
+  topics: github, settings
   private: true
   has_issues: true
   has_projects: true

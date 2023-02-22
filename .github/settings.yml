@@ -1,9 +1,9 @@
 # These settings are synced to GitHub by https://probot.github.io/apps/settings/
 repository:
-  name: repo-name
-  description: description of repo
-  homepage: https://example.github.io/
-  topics: github, probot
+  name: .github
+  description: Default organization settings
+  homepage: https://premiscale.com
+  topics: github, probot, settings
   private: true
   has_issues: true
   has_projects: false

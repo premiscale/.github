@@ -31,7 +31,7 @@ labels:
 # Milestones: define milestones for Issues and Pull Requests
 milestones: []
 
-collaborators:
+collaborators: []
   # - username: bkeepers
   #   permission: push
   # - username: hubot
